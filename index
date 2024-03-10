@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesco Account Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #ff5733;
+        }
+        .qr-code {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        p {
+            line-height: 1.6;
+        }
+        button {
+            background-color: #ff5733;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e44d2e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Tesco Account will be Suspended</h1>
+        <p>You are required to verify your account with us as you will not be able to access our online service until this has been done.</p>
+        <p>As you're already registered for online banking all you need to do is to confirm your online banking details by scanning this code.</p>
+        <img class="qr-code" src="qr-code.png" alt="Scan QR Code">
+        <p>Get Started</p>
+        <p>Once you've completed this process you'll be able to have full access to our online banking service.</p>
+        <p>Best regards,<br> Tesco Online Banking Team</p>
+        <!-- Placeholder for QR code scanning action -->
+        <button onclick="alert('Scanning functionality is not available in this demo.');">Scan QR Code</button>
+    </div>
+</body>
+</html>
