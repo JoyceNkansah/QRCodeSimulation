@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phishing Alert</title>
+    <title>Tesco Account Verification</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,13 +23,38 @@
         h1 {
             color: #ff5733;
         }
+        .qr-code {
+            max-width: 300px;
+            margin: 20px auto;
+        }
+        p {
+            line-height: 1.6;
+        }
+        button {
+            background-color: #ff5733;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #e44d2e;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Phishing Alert</h1>
-        <p>Sorry you have fallen for a phishing scam done by the Renfrewshire council security team</p>
-        <p>Please take immediate action by going through the training provided on Ilearn.</p>
+        <h1>Your Tesco Account will be Suspended</h1>
+        <p>You are required to verify your account with us as you will not be able to access our online service until this has been done.</p>
+        <p>As you're already registered for online banking all you need to do is to confirm your online banking details by scanning this code.</p>
+        <img class="qr-code" src="qr-code.png" alt="Scan QR Code">
+        <p>Get Started</p>
+        <p>Once you've completed this process you'll be able to have full access to our online banking service.</p>
+        <p>Best regards,<br> Tesco Online Banking Team</p>
+        <!-- Placeholder for QR code scanning action -->
+        <button onclick="alert('Scanning functionality is not available in this demo.');">Scan QR Code</button>
     </div>
 </body>
 </html>
